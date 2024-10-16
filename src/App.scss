@@ -1,0 +1,135 @@
+.custom-card{
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+  
+}
+
+.card-conatiner{
+  width: 500px;
+  margin-top: 130px;
+
+}
+
+.card-data{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-font-size{
+  font-size: 36px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.applicant-icon-background{
+  background-color: rgb(192,159,128); 
+
+}
+
+.total-jobs-icon-background{
+  background-color: rgb(0,52,187);
+}
+
+.circular-icon {
+  display: inline-flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
+}
+
+.icon-contact{
+  color: white;
+  font-size: 16px;
+}
+
+.total-jobs{
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.applicant-text{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.applicants{
+  margin-right: 14px;
+}
+
+.donut-container{
+  width:330px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.private-job-card {
+  width: 300px;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-between; /* Space elements evenly */
+}
+
+.card-image {
+  width: 100%; /* Full width */
+  height: 140px; /* Fixed height for the image */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.card-title {
+  margin: 10px 0 0; /* Margin for spacing */
+  font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+.card-description {
+  margin: 10px 0; /* Margin for spacing */
+  color: #555; /* Text color */
+}
+
+
+// .job-data-container {
+//   max-width: 1200px;
+//   margin: 40px auto;
+//   padding: 20px;
+//   height: 400px;
+//   background-color: #f7f7f7;
+//   border: 1px solid #ddd;
+//   border-radius: 10px;
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+// }
+
+.job-data-header {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  height: 330px;
+  background-color: #E1E8FF;
+}
+
+.job-data-header h1 {
+  margin-top: 0;
+}
+
+.job-data-main-card-container {
+  position: absolute;
+  top: 140px;
+  display: flex;
+  gap: 50px;
+}
+
+.inside-card {
+  height: 80px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.job-posting-chart{
+  height: 380px;
+}
+
