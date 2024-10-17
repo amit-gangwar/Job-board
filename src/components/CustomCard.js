@@ -10,7 +10,7 @@ const CustomCard = ({
     secondText=null
 }) => {
     return (
-        <Card className='card-container'>
+        <Card className='card-container' hoverable>
             <div className='custom-card'>
                
                 {totalJobs !== null && (
