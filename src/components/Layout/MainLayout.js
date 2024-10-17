@@ -124,10 +124,10 @@ const MainLayout = () => {
                 <CandidatesDetailTable />
 
               </Col>
-              <Col xs={24} sm={12} md={12} lg={12} xl={12}>
+              {/* <Col xs={24} sm={12} md={12} lg={12} xl={12}>
                 <JobPostingChart />
 
-              </Col>
+              </Col> */}
             </Row>
 
 
